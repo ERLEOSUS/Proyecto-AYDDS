@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Zona 37</title>
+    <link href="./login.css" rel="stylesheet" type="text/css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <header>
+        <header style="display: flex; justify-content: center; align-items: center;">
+            <img src="./img/logo.jpg" style="width: 200px; height: 200px;">
+        </header>
+    </header>
+
+        <form id="loginForm">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <button type="button" onclick="verificarCredenciales()">Iniciar Sesión</button>
+            <a href="registrar_cliente.html"><button type="button">Registrarse</button></a>
+        </form>
+    </main>
+
+    <script src="script.js"></script> <!-- Puedes enlazar tu script JavaScript aquí -->
+</body>
+
+</html>

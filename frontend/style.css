@@ -1,0 +1,153 @@
+@charset "ISO-8859-1";
+
+footer {
+	overflow: hidden;
+	background-color: #000000;
+	padding: 20px 10px;
+	text-align: center;
+	clear: both;
+	margin-top: 10px;
+}
+
+footer li {
+	list-style: none;
+	font: bold 14px verdana;
+	padding: 10px;
+	display: inline-block;
+	color: #ccc
+}
+
+.agrupar {
+	border: 1px;
+	margin: auto;
+	width: 960px;
+}
+
+.productos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 10px;
+}
+
+/* Estilo para la tarjeta de productos */
+.imagen-producto {
+	width: 150px;
+	/* Ajusta el ancho según tu preferencia */
+	height: 150px;
+	/* Ajusta la altura según tu preferencia */
+	object-fit: cover;
+	/* Ajusta el comportamiento de la imagen */
+}
+
+.card {
+	width: 200px;
+	/* Ajusta el ancho según tu preferencia, debe coincidir con el de la imagen */
+	height: 250px;
+	/* Ajusta la altura según tu preferencia */
+	border: 1px solid #ddd;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+.descripcion {
+	font-size: 16px;
+	margin-top: 8px;
+}
+
+.precio {
+	font-size: 14px;
+	color: #007bff;
+	/* Color azul, puedes cambiarlo a tu preferencia */
+	margin-top: 4px;
+}
+
+/* Agrega más estilos según tus necesidades */
+/* Estilos para el contenedor del carrito */
+.carrito-container {
+	background-color: #f2f2f2;
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+/* Estilos para el párrafo que muestra el total de la compra */
+#totalCompraContainer {
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	margin-top: 10px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #000000;
+}
+
+
+.logo {
+	width: 200px;
+	/* Ajusta el ancho según tu preferencia */
+	height: auto;
+	margin-right: auto;
+	/* Esto coloca la imagen en la esquina superior izquierda */
+}
+
+.inicio-sesion {
+	margin-top: 10px;
+	/* Ajusta el margen superior según tu preferencia */
+	margin-right: 10px;
+	/* Ajusta el margen derecho según tu preferencia */
+	padding: 10px;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.menu-dia {
+	text-align: center;
+	font-size: 100px;
+	/*margin-top: 10px;*/
+	color: #411a1a; 
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th {
+    text-align: center;
+}
+.fab {
+    margin-right: 5px;
+}
